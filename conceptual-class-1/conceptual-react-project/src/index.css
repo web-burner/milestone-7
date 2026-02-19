@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+.toggle-btn {
+    @apply bg-purple-100 text-purple-500 text-lg font-bold px-4 py-2
+}
+
+.item-center {
+    @apply flex items-center gap-5;
+}
+
+.hover {
+    @apply hover:bg-purple-500 hover:text-white;
+}
+
+.elementCenter {
+    @apply flex flex-col items-center justify-center gap-5 rounded-xl text-white;
+}
